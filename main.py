@@ -14,5 +14,8 @@ def consult():
 def about():
     return render_template("about.html")
 
+def hello():
+    return True
+
 if __name__ == "__main__":
     app.run(debug=True)
